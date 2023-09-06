@@ -31,9 +31,9 @@ export const AllProducts = [
     },
     {
       id: 3,
-      name: "A Beautiful Sweater For Women",
+      name: "Beautiful Earrings",
       price: "77.00",
-      price_sell: "43.00",
+      price_sell: "66.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellem tesque magna laoret felis accumsan finibus. Curabitu id dante at sada maximus. Vestibulum ornare...",
       color: ["gray", "black", "white"],
@@ -46,9 +46,9 @@ export const AllProducts = [
     },
     {
       id: 4,
-      name: "A Beautiful Sweater For Women",
+      name: "Boot Solar Wave Hiking",
       price: "77.00",
-      price_sell: "43.00",
+      price_sell: "322.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellem tesque magna laoret felis accumsan finibus. Curabitu id dante at sada maximus. Vestibulum ornare...",
       color: ["gray", "black", "white"],
@@ -61,9 +61,9 @@ export const AllProducts = [
     },
     {
       id: 5,
-      name: "A Beautiful Sweater For Women",
+      name: "Cellucor Amino Acid",
       price: "77.00",
-      price_sell: "43.00",
+      price_sell: "68.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellem tesque magna laoret felis accumsan finibus. Curabitu id dante at sada maximus. Vestibulum ornare...",
       color: ["gray", "black", "white"],
@@ -141,7 +141,7 @@ export const AllProducts = [
               </div>
           </div>
           <div class="text-product-details">
-              <a href="">A Beautiful Sweater For Women</a>
+              <a href="">${product.name}</a>
               <div class="price-product">
                   <p>$${product.price_sell}</p>
                   <p>$${product.price}</p>

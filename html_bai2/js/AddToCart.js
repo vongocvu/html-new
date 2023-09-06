@@ -27,15 +27,15 @@ btn_add_to_cart.forEach((btn) => {
 
     box_cart.style.display = "block";
     document.querySelector(".notification_cart").innerHTML = `
-          <div>
-          <p class="messgare">Add sucessfullly</p>
+          <div class ="successful">
+          <p class="message">Product Add To Cart Successful</p>
           </div>
     `;
     setTimeout(() => {
       document.querySelector(".notification_cart").innerHTML = ``;
     }, 2000);
     show_cart();
-    clearInterval(time_out);
+    // clearInterval(time_out);
     count_down();
   });
 });
@@ -45,19 +45,22 @@ function show_cart() {
   ProductInCart.forEach((product) => {
     cart.innerHTML += `
 
-         <div class="item-product-detail">
+         <div class="item-product-detail-cart  item-product-detail ">
          <div class="img-product-cart">
          <img src="${product.image[0]}" />
          </div>
          <div class="text-item-cart">
             <h1>${product.name}</h1>
+            <div class="item-size-color">
+                <span>${product.size[0]}, </span>
+                <span>${product.color[0]}</span>
+            </div>
+            <span class="item-price-sell">$${product.price_sell}</span>
               <div class="chung">
               <div class="tang-giam"  product_id="${product.id}">
-              <button class="prev_btn">-</button>
-                <span>${product.quantity < 10 ? 0 : ""}${
-      product.quantity
-    }</span>
-              <button class="next_btn">+</button>
+              <span class="prev_btn">-</span>
+                <span class="item-quantity">${product.quantity < 10 ? 0 : ""}${ product.quantity }</span>
+              <span class="next_btn">+</span>
               </div>
               <div class ="xoa_product" >
                   <p class = "xoa_sp" product_id = "${product.id}">Remove</p>
@@ -84,6 +87,7 @@ function delete_product(delete_btns) {
         }
       });
       show_cart();
+      
     });
   });
 }
@@ -124,7 +128,7 @@ document.querySelector(".close-svg").addEventListener("click", () => {
 });
 
 function count_down() {
-  let minute = 1;
+  let minute = 5;
   let seconds = 0;
   let count = document.querySelector(".count");
   var time_out = setInterval(() => {
@@ -134,7 +138,7 @@ function count_down() {
       minute--;
     }
     if (minute == 0 && seconds == 0) {
-      minute = 3;
+      minute = 5;
       box_cart.style.display = "none";
     }
     count.innerText = `${minute > 10 ? "" : 0}${minute}:${
