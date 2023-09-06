@@ -1,0 +1,244 @@
+@media screen and (max-width: 1400px) {
+  .products-img {
+    width: 24%;
+  }
+  .text-product-details {
+    width: 70%;
+  }
+  .text-lorem {
+    width: 100%;
+    font-size: 16px;
+  }
+  .menu-bar-left svg {
+    border: 1px solid var(--white-100);
+    padding: 6px;
+    border-radius: 3px;
+    margin-right: 10px !important;
+    height: 17px;
+  }
+  .price-product p {
+    font-size: 20px;
+  }
+  .price-product {
+    padding-top: 12px;
+  }
+  .color-list-lorem {
+    padding-top: 15px;
+  }
+  .thu {
+    padding: 4px 35px;
+  }
+  .trai-tyms-tyms svg {
+    width: 20px !important;
+  }
+  .trai-tyms-tyms {
+    padding: 10px 11px;
+  }
+  .top-bar-choose {
+    padding: 10px 0px;
+    font-size: var(--font14);
+    width: 200px;
+  }
+  .ten-sanpham {
+    padding-top: 10px;
+    margin-top: 13px;
+    width: 200px;
+  }
+  .list-btns button {
+    font-size: 16px;
+    width: 130px;
+    height: 35px;
+  }
+  .icon-heart svg {
+    width: 20px;
+    height: 20px;
+    padding-left: 7px;
+    padding-top: 8px;
+  }
+  .icon-heart {
+    width: 35px;
+    height: 35px;
+  }
+  .list-icons {
+    top: 4%;
+    right: 8%;
+  }
+  .before-icon-heart {
+    font-size: 13px;
+    right: 45px;
+    padding: 16px 32px;
+    top: 5px;
+  }
+  .text-box-heart {
+    right: 12px;
+    top: 8px;
+  }
+  .span-heart {
+    width: 12px;
+    height: 11px;
+    bottom: 10px;
+    right: -5px;
+  }
+  .list-sizes a {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+}
+@media screen and (max-width: 1300px){
+  .products-img{
+    width: 28%;
+  }
+}
+@media screen and (max-width: 1200px){
+  .products-img{
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1100px){
+  .products-img{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1083px) {
+  .products-img {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .products-img {
+    width: 45%;
+  }
+  .text-product-details {
+    padding-top: 5px !important;
+    padding-left: 30px;
+  }
+  .thu {
+    padding: 2px 24px;
+  }
+  .list-button-products-detail button {
+    margin-right: 10px;
+  }
+  .trai-tyms-tyms {
+    padding: 8px 10px;
+  }
+  .menu-bar-right {
+    margin-right: 15px;
+  }
+  .section2-main-right{
+    padding-left: 15px;
+  }
+ 
+.text-product-details{
+  padding-top: 10px !important;
+}
+}
+@media screen and (max-width: 992px){
+  .products-img{
+    width: 25%;
+  }
+}
+@media screen and (max-width: 845px){
+  .products-img{
+   width: 28%;
+  }
+}
+@media screen and (max-width: 767px){
+  .top-bar{
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-bar-left{
+    padding: 15px 0px;
+  }
+  .ten-sanpham{
+    right: 31%;
+  }
+  .top-bar-choose , .ten-sanpham {
+    width: 300px;
+  }
+
+  .text-lorem , .list-button-products-detail{
+    display: none;
+  }
+  .items-products-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-product-details a ,  .price-product p{
+    font-size: 16px;
+  }
+  .price-product p:nth-child(2){
+    font-size: 16px;
+  }
+  .text-product-details{
+    width: 80%;
+    padding: 10px 0px 0px 0px !important;
+  }
+  .products-img{
+    width: 90% !important;
+    height: auto;
+  }
+  .section2-list-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+   grid-row-gap: 10px;
+  }
+
+}
+@media screen and (max-width: 735px){
+  .ten-sanpham{
+    right: 30%;
+  }
+}
+@media screen and (max-width: 674px){
+  .ten-sanpham{
+    right: 28%;
+  }
+}
+@media screen and (max-width: 600px){
+  .ten-sanpham{
+    right: 25%;
+  }
+}
+@media screen and (max-width: 540px){
+  .ten-sanpham{
+    right: 23%;
+  }
+}
+@media screen and (max-width: 481px){
+  .section2-list-products{
+    grid-template-columns: 1fr;
+  }
+  .products-img{
+    max-height: 540px;
+    width: 95% !important;
+  }
+  .text-product-details{
+    padding-top: 45px !important;
+  }
+  .ten-sanpham{
+    right: 20%;
+  }
+}
+@media screen and (max-width: 425px){
+  .ten-sanpham{
+    right: 15%;
+  }
+}
+@media screen and (max-width: 350px){
+  .top-bar-choose, .ten-sanpham{
+    width: 280px;
+   
+  }
+}
+@media screen and (max-width: 320px){
+  .top-bar-choose, .ten-sanpham{
+    width: 260px;
+  }
+  .ten-sanpham{
+    right: 7%;
+  }
+}

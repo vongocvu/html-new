@@ -1,0 +1,14 @@
+
+.section1-large{
+    padding: 0px 20px;
+}
+.intro-landing-logo{
+    width: 289px;
+}
+.section2-content-list-grid{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}

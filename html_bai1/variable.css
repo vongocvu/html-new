@@ -1,0 +1,32 @@
+:root {
+    --blue: #504de2;
+    --blue-100 : #07c2ff;
+    --white: #ffffff;
+    --white-500: #f7f6fd;
+    --pink :#f8407e;
+    --gray: #797a84;
+    --black: black;
+    --green-100: #95bf46;
+    --blue-500 : #211eb9;
+    --black-100: #202232;
+  }
+.container{
+    --font14: 14px;
+    --fontTieude: 24px;
+    --font18:18px;
+    --font11 : 11px;
+    --font60: 60px;
+    --font21: 21px;
+    --font30 : 30px;
+    --font48: 48px;
+    --font28: 28px;
+    --font16: 16px;
+    --font17: 17px;
+    --font15: 15px;
+    --font20:20px;
+    --font13: 13px;
+    --font22: 22px;
+    --font45:45px;
+    --font12:12px;
+    --font25: 25px;
+}

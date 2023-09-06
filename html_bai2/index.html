@@ -1,0 +1,2559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS</title>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="variable.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="header_menu.css">
+    <link rel="stylesheet" href="section2_left.css">
+    <link rel="stylesheet" href="section2_right.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="screen_header.css">
+    <link rel="stylesheet" href="screen-section2-left.css">
+    <link rel="stylesheet" href="screen-section2-right.css">
+    <link rel="stylesheet" href="screen_footer.css">
+    <link rel="stylesheet" href="css_them.css">
+   
+</head>
+
+<body>
+    <div class="thu22">
+        <input type="checkbox" id="top-bar-sale">
+       
+        <div class="top-bar-sale-off">
+            <div class="sale-off">
+                <p> Free Delivery on orders over $80. Don’t miss discount.</p>
+                <span>SALE OFF
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.21484 2.96509L10.2498 6.00009L7.21484 9.03509" stroke="white" stroke-width="1.5"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M1.75 6H10.165" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </span>
+            </div>
+            
+        </div>
+        <label for="top-bar-sale" class="lable-sale-off">
+            <svg width="24" height="24" style="stroke:white;" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+        </label>
+       
+       
+    </div>
+    <div id="header">
+        <div class="container">
+            <div class="header-menu">
+                <div class="header-menu-top">
+                    <div class="row  menu-top-left">
+                        <div class="col-lg-4">
+                            <ul class="col-menu-top">
+                                <li class="col-6 langue"><a class="english" href="#">English</a></li>
+                                <li class="col-6 langues">
+                                    <div class="col-6-nav">
+                                        <a class="usd-pp" href="#">USD </a>
+                                        <a class="usd-pp" href=""> <svg class="nav-arrow" width="8" height="8" viewBox="0 0 12 7"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                            </svg></a>
+                                        <div class="item-list usd-item">
+                                            <ul>
+                                                <li><a href="">GPB</a></li>
+                                                <li><a href="">GPB</a></li>
+                                                <li><a href="">GPB</a></li>
+                                                <li><a href="">GPB</a></li>
+                                                <li><a href="">GPB</a></li>
+                                                <li><a href="">GPB</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                            <ul class="col-menu-top">
+                                <li class="col-6 align-center">
+                                    <a class="menu-icon-header" href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="" viewBox="0 0 320 512">
+                                            <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>   
+                                        <!-- <img class="icon-header" src="img/facebook.png" alt=""> -->
+                                    </a>
+                                    <a class="fl-1m" href="#">1M Followers</a>
+                                </li>
+                                <li class="col-6 align-center">
+                                    <a class="menu-icon-header" href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="" viewBox="0 0 512 512">
+                                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                                        <!-- <img class="icon-header" src="img/twitter.png" alt=""> -->
+                                    </a>
+                                    <a href="#">500K Followers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              
+
+
+            </div>
+            <div class="headers-menu-lg-1024">
+                <div class="row header-menu-lg-1024">
+                    <div class="col-lg-2">
+                        <input type="checkbox" id="menu-lg-1024">
+                        <label for="menu-lg-1024" class="icon-menu-header-wrap">
+                            <svg width="25" height="25" viewBox="0 0 24 24" style="stroke:#121212" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 9.99976H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path d="M21 5.99976H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path d="M21 13.9998H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path d="M17 17.9998H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </svg>
+                        </label>
+
+                        <div class="hearder-menu-lg-left">
+                            <div class="nav-menu-lg-left">
+                                <a class="deg-180" href="">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+
+                                <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Logo_250x.png?v=1640744879"
+                                    alt="">
+
+                            </div>
+                            <div class="nav-menu-lg-search">
+                                <div class="lg-search">
+                                    <input class="enter-email" type="text" name="" id=""
+                                        placeholder="Search for products...">
+                                    <button type="button">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11 18.9995C15.4183 18.9995 19 15.4178 19 10.9995C19 6.58123 15.4183 2.99951 11 2.99951C6.58172 2.99951 3 6.58123 3 10.9995C3 15.4178 6.58172 18.9995 11 18.9995Z"
+                                                stroke="#A0A0A0" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                            <path d="M21.0004 20.9994L16.6504 16.6494" stroke="#A0A0A0" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="nav-menu-lg-list-categorys">
+                                <div class="nav-menu-lg-list-category">
+                                    <ul class="list-categorys">
+                                        <li class="items-category">
+                                            <a href="">Demo</a>
+                                            <input type="checkbox" id="check-list">
+                                            <label for="check-list" class="icon-mui-ten">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M3.72402 10.0809C3.57366 9.9366 3.55999 9.7108 3.68302 9.55168L3.72402 9.50609L7.37729 5.99995L3.72402 2.49381C3.57366 2.34951 3.55999 2.1237 3.68302 1.96458L3.72402 1.919C3.87439 1.7747 4.10968 1.76158 4.27548 1.87964L4.32299 1.919L8.27593 5.71255C8.42629 5.85685 8.43996 6.08265 8.31693 6.24177L8.27593 6.28736L4.32299 10.0809C4.15759 10.2396 3.88942 10.2396 3.72402 10.0809Z"
+                                                        fill="#121212"></path>
+                                                </svg>
+                                            </label>
+                                            <label for="check-list" class="backto-item">
+                                                <svg width="15" height="15" viewBox="0 0 12 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M0.55912 0.965447C0.751519 0.764964 1.05259 0.746739 1.26475 0.91077L1.32553 0.965447L6.00039 5.83647L10.6752 0.965447C10.8676 0.764964 11.1687 0.746739 11.3809 0.91077L11.4417 0.965447C11.6341 1.16593 11.6516 1.47965 11.4941 1.70073L11.4417 1.76406L6.3836 7.03465C6.1912 7.23513 5.89012 7.25336 5.67797 7.08933L5.61718 7.03465L0.55912 1.76406C0.347481 1.54353 0.347481 1.18598 0.55912 0.965447Z"
+                                                        fill="#121212"></path>
+                                                </svg>
+                                            </label>
+                                            <div class="items-demos-danhsach ">
+                                                <div class="items-demos-ds">
+                                                    <ul class="items-demo-danh-sach">
+
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                        <li>Home Facshion 1</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+
+                                        </li>
+                                        <li class="items-category">
+                                            <a class="color-red" href="">Sale</a>
+
+                                        </li>
+                                        <li class="items-category">
+                                            <a class="color-green" href="">Shop</a>
+                                            <a href="">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M3.72402 10.0809C3.57366 9.9366 3.55999 9.7108 3.68302 9.55168L3.72402 9.50609L7.37729 5.99995L3.72402 2.49381C3.57366 2.34951 3.55999 2.1237 3.68302 1.96458L3.72402 1.919C3.87439 1.7747 4.10968 1.76158 4.27548 1.87964L4.32299 1.919L8.27593 5.71255C8.42629 5.85685 8.43996 6.08265 8.31693 6.24177L8.27593 6.28736L4.32299 10.0809C4.15759 10.2396 3.88942 10.2396 3.72402 10.0809Z"
+                                                        fill="#121212"></path>
+                                                </svg>
+
+                                            </a>
+                                        </li>
+                                        <li class="items-category">
+                                            <a href="">Product</a>
+                                            <a href="">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M3.72402 10.0809C3.57366 9.9366 3.55999 9.7108 3.68302 9.55168L3.72402 9.50609L7.37729 5.99995L3.72402 2.49381C3.57366 2.34951 3.55999 2.1237 3.68302 1.96458L3.72402 1.919C3.87439 1.7747 4.10968 1.76158 4.27548 1.87964L4.32299 1.919L8.27593 5.71255C8.42629 5.85685 8.43996 6.08265 8.31693 6.24177L8.27593 6.28736L4.32299 10.0809C4.15759 10.2396 3.88942 10.2396 3.72402 10.0809Z"
+                                                        fill="#121212"></path>
+                                                </svg>
+
+                                            </a>
+                                        </li>
+                                        <li class="items-category">
+                                            <a href="">Page</a>
+                                            <a href="">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M3.72402 10.0809C3.57366 9.9366 3.55999 9.7108 3.68302 9.55168L3.72402 9.50609L7.37729 5.99995L3.72402 2.49381C3.57366 2.34951 3.55999 2.1237 3.68302 1.96458L3.72402 1.919C3.87439 1.7747 4.10968 1.76158 4.27548 1.87964L4.32299 1.919L8.27593 5.71255C8.42629 5.85685 8.43996 6.08265 8.31693 6.24177L8.27593 6.28736L4.32299 10.0809C4.15759 10.2396 3.88942 10.2396 3.72402 10.0809Z"
+                                                        fill="#121212"></path>
+                                                </svg>
+
+                                            </a>
+                                        </li>
+                                        <li class="items-category">
+                                            <a href="">Blogs</a>
+                                            <a href="">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M3.72402 10.0809C3.57366 9.9366 3.55999 9.7108 3.68302 9.55168L3.72402 9.50609L7.37729 5.99995L3.72402 2.49381C3.57366 2.34951 3.55999 2.1237 3.68302 1.96458L3.72402 1.919C3.87439 1.7747 4.10968 1.76158 4.27548 1.87964L4.32299 1.919L8.27593 5.71255C8.42629 5.85685 8.43996 6.08265 8.31693 6.24177L8.27593 6.28736L4.32299 10.0809C4.15759 10.2396 3.88942 10.2396 3.72402 10.0809Z"
+                                                        fill="#121212"></path>
+                                                </svg>
+
+                                            </a>
+                                        </li>
+                                        <li class="items-category">
+                                            <a href="">Features</a>
+                                            <a href="">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M3.72402 10.0809C3.57366 9.9366 3.55999 9.7108 3.68302 9.55168L3.72402 9.50609L7.37729 5.99995L3.72402 2.49381C3.57366 2.34951 3.55999 2.1237 3.68302 1.96458L3.72402 1.919C3.87439 1.7747 4.10968 1.76158 4.27548 1.87964L4.32299 1.919L8.27593 5.71255C8.42629 5.85685 8.43996 6.08265 8.31693 6.24177L8.27593 6.28736L4.32299 10.0809C4.15759 10.2396 3.88942 10.2396 3.72402 10.0809Z"
+                                                        fill="#121212"></path>
+                                                </svg>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                            <div class="nav-menu-lg-list-english">
+                                <ul class="list-items-english">
+                                    <li class="english-trs">
+                                        <a href="">English</a>
+                                    </li>
+                                    <li class="svg-padding ">
+                                        <a class="usd-trs" href="">USD</a>
+                                        <svg width="8" height="8" viewBox="0 0 12 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.55912 0.965447C0.751519 0.764964 1.05259 0.746739 1.26475 0.91077L1.32553 0.965447L6.00039 5.83647L10.6752 0.965447C10.8676 0.764964 11.1687 0.746739 11.3809 0.91077L11.4417 0.965447C11.6341 1.16593 11.6516 1.47965 11.4941 1.70073L11.4417 1.76406L6.3836 7.03465C6.1912 7.23513 5.89012 7.25336 5.67797 7.08933L5.61718 7.03465L0.55912 1.76406C0.347481 1.54353 0.347481 1.18598 0.55912 0.965447Z"
+                                                fill="#121212"></path>
+                                        </svg>
+                                        <div class="list-items-usd">
+                                            <ul class="list-item-usd">
+                                                <li class="hover-the-a"><a href="">GPB</a></li>
+                                                <li class="hover-the-a"><a href="">GPB</a></li>
+                                                <li class="hover-the-a"><a href="">GPB</a></li>
+                                                <li class="hover-the-a"><a href="">GPB</a></li>
+                                                <li class="hover-the-a"><a href="">GPB</a></li>
+                                                <li class="hover-the-a"><a href="">GPB</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="list-item-entertaiment">
+                                    <li class="item-icon-facebook english-trs">
+                                        <a class="icon-fb" href="">
+                                            <img class="icon-headers" src="img/facebook.png" alt="">
+                                        </a>
+                                        <a href="#">1M Followers</a>
+                                    </li>
+                                    <li class="english-trs">
+                                        <a class="icon-fb icon-tw" href="">
+                                            <img class="icon-headers" src="img/twitter.png" alt="">
+                                        </a>
+                                        <a href="#">500K Followers</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-8">
+                        <a class="gougi" href="">
+                            <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Logo_250x.png?v=1640744879"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-2">
+                        <a class="icon-menu wh-screen" href="">
+                            <div class="before-collection hg-w-login">
+                                <span class="text-box-login text-box-left">Login</span>
+                                <span class="span-login"></span>
+                            </div>
+                            <svg width="30" height="30" viewBox="0 0 24 24" style="stroke:#121212" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20 20.9998V18.9998C20 17.9389 19.5786 16.9215 18.8284 16.1713C18.0783 15.4212 17.0609 14.9998 16 14.9998H8C6.93913 14.9998 5.92172 15.4212 5.17157 16.1713C4.42143 16.9215 4 17.9389 4 18.9998V20.9998"
+                                    stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path
+                                    d="M12 10.9998C14.2091 10.9998 16 9.20889 16 6.99976C16 4.79062 14.2091 2.99976 12 2.99976C9.79086 2.99976 8 4.79062 8 6.99976C8 9.20889 9.79086 10.9998 12 10.9998Z"
+                                    stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <section class="menu-top-sticky">
+        <div class="header-menu-bottom">
+            <div class="row menu-top-right">
+                <div class="col-lg-3">
+                    <div class="menu-bottom-icon">
+                        <a class="icon-menu" href="">
+                            <div class="before-collection hg-w-collection">
+                                <span class="text-box-collection">Collections</span>
+                                <span class="span-collection"></span>
+                            </div>
+                        </a>
+                        <input type="checkbox" id="woman">
+                        <label for="woman" class="woman-lb">
+                            <svg width="24" height="24" viewBox="0 0 24 24" style="stroke:#121212" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 9.99976H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M21 5.99976H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M21 13.9998H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M17 17.9998H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                        </label> 
+                      
+                        <div class="woman-list-items">
+
+                           
+                            <div class="woman-list-item">
+                                    <ul class="woman-list-ds">
+                                        <li class="item-list-woman-detail">
+                                            <label for="woman" class="dongtag">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                            </label>
+                                         <input type="checkbox" id="item-woman">
+                                         <label for="item-woman" class="tuthu">
+                                             Woman
+                                         </label>
+                                       
+                                         <div class="items-list-womans">                  
+                                                <ul class="list-woman-items">
+                                                    <li>
+                                                     
+                                                        <a class="hoverthune" href="">Jackets and Suit Jackets
+                                                            <div class="line-hover-products ">
+                                                            </div>
+                                                        </a>
+                                                      
+                                                    </li>
+                                                    <li>
+                                                        <a class="hoverthune" href="">Clothings
+                                                            <div class="line-hover-products ">
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="hoverthune" href="">Clothings
+                                                            <div class="line-hover-products ">
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="hoverthune" href="">Clothings
+                                                            <div class="line-hover-products ">
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="hoverthune" href="">Clothings
+                                                            <div class="line-hover-product ">
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                         </div>
+                                        </li>
+                                        <li class="item-list-woman-detail">
+                                            <input type="checkbox" id="item-clothing">
+                                            <label for="item-clothing" class="tuthu">
+                                              Clothings
+                                            </label>
+                                            <div class="items-list-womans clothing-items">                  
+                                                   <ul class="list-woman-items clothing-item">
+                                                       <li>
+                                                        
+                                                           <a class="hoverthune" href="">Jackets and Suit Jackets
+                                                               <div class="line-hover-products ">
+                                                               </div>
+                                                           </a>
+                                                         
+                                                       </li>
+                                                       <li>
+                                                           <a class="hoverthune" href="">Clothings
+                                                               <div class="line-hover-products ">
+                                                               </div>
+                                                           </a>
+                                                       </li>
+                                                       <li>
+                                                           <a class="hoverthune" href="">Clothings
+                                                               <div class="line-hover-products ">
+                                                               </div>
+                                                           </a>
+                                                       </li>
+                                                       <li>
+                                                           <a class="hoverthune" href="">Clothings
+                                                               <div class="line-hover-products ">
+                                                               </div>
+                                                           </a>
+                                                       </li>
+                                                       <li>
+                                                           <a class="hoverthune" href="">Clothings
+                                                               <div class="line-hover-product ">
+                                                               </div>
+                                                           </a>
+                                                       </li>
+                                                   </ul>
+                                            </div>
+                                           </li>
+                                           <li class="item-list-woman-detail">
+                                            <input type="checkbox" id="item-mans">
+                                            <label for="item-mans" class="tuthu">
+                                              Mans
+                                            </label>
+                                            <div class="items-list-womans man-items">                  
+                                                   <ul class="list-woman-items man-item">
+                                                       <li>
+                                                        
+                                                           <a class="hoverthune" href="">Jackets and Suit Jackets
+                                                               <div class="line-hover-products ">
+                                                               </div>
+                                                           </a>
+                                                         
+                                                       </li>
+                                                       <li>
+                                                           <a class="hoverthune" href="">Clothings
+                                                               <div class="line-hover-products ">
+                                                               </div>
+                                                           </a>
+                                                       </li>
+                                                       <li>
+                                                           <a class="hoverthune" href="">Clothings
+                                                               <div class="line-hover-products ">
+                                                               </div>
+                                                           </a>
+                                                       </li>
+                                                       <li>
+                                                           <a class="hoverthune" href="">Clothings
+                                                               <div class="line-hover-products ">
+                                                               </div>
+                                                           </a>
+                                                       </li>
+                                                       <li>
+                                                           <a class="hoverthune" href="">Clothings
+                                                               <div class="line-hover-product ">
+                                                               </div>
+                                                           </a>
+                                                       </li>
+                                                   </ul>
+                                            </div>
+                                           </li>
+                                     
+                                    </ul>
+                            </div>
+                            <div class="lam-mo">
+                               <label for="woman" class="opacity">
+                                   <div class="lam-mo"></div>
+                               </label>
+                            </div>
+
+                         </div>
+                        
+                        <a class="icon-menu search" href="">
+                            <div class="before-collection hg-w-product">
+                                <span class="text-box-search">Search Product</span>
+                                <span class="span-search-product"></span>
+                            </div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 18.9995C15.4183 18.9995 19 15.4178 19 10.9995C19 6.58123 15.4183 2.99951 11 2.99951C6.58172 2.99951 3 6.58123 3 10.9995C3 15.4178 6.58172 18.9995 11 18.9995Z" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M21.0004 20.9994L16.6504 16.6494" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="col-lg-6-menu ">
+                        <ul class="col-menu-top menu-top-header">
+                            <li class="list-demo">
+                                <div class="col-6-nav">
+                                    <a href="#">Demo </a>
+                                    <a class="usd-pp" href=""> <svg class="nav-arrow" width="8" height="8" viewBox="0 0 12 7"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                    </svg></a>
+                                    <div class="item-list-demo">
+                                        <div class="demo-boxs-list">
+                                            <div class="demo-box-list">
+                                                <div class="demo-box-item">
+                                                    <ul class="box line-hover">
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="demo-box-item">
+                                                    <ul class="box line-hover">
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div>
+                                                                    <span>Home Fashion 1</span>
+                                                                    <div class="link-boder-gray">
+                                                                    </div>
+                                                                </div>
+                                                            </a></li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="list-sale">
+                                <div class="col-6-nav">
+                                    <a class="color-red" href="#">Sale </a>
+
+                                </div>
+                            </li>
+                            <li class="list-shop">
+                                <div class="col-6-nav">
+                                    <a class="color-green" href="#">Shop </a>
+                                    <a class="usd-pp" href=""> <svg class="nav-arrow" width="8" height="8" viewBox="0 0 12 7"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                    </svg></a>
+                                </div>
+                                <div class="shops">
+                                    <div class="box-shop box-list">
+                                        <div class="menu-shop-list">
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray ">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <div class="menu-shop-img">
+                                                    <div class="img-detail-shop-1">
+                                                        <div class="text-shop text-shop-detail">
+                                                            <h3>Spring <br> Collection</h3>
+                                                            <a href="">Discover More</a>
+                                                        </div>
+                                                        <a href="">
+                                                            <img class="img-shop-1"
+                                                                src="https://gougi-demo.myshopify.com/cdn/shop/files/banner1_f5acb12e-db61-418a-908a-1b446d438566_grande.jpg?v=1665718036"
+                                                                alt="">
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="img-detail-shop-2">
+                                                        <div class="text-shop2 text-shop-detail">
+                                                            <h3>Women <br> Stylish Tops</h3>
+                                                            <a href="">Discover More</a>
+                                                        </div>
+                                                        <img src="https://gougi-demo.myshopify.com/cdn/shop/files/banner2_dc5c5b7d-8a6d-4619-93e7-065d6043c6c7_grande.jpg?v=1665718056"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </li>
+                            <li class="list-products">
+                                <div class="col-6-nav">
+                                    <a href="#">Products </a>
+                                    <a class="usd-pp" href=""> <svg class="nav-arrow" width="8" height="8" viewBox="0 0 12 7"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                    </svg></a>
+                                </div>
+                                <div class="products">
+                                    <div class="box-product box-list">
+                                        <div class="menu-product-list">
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+
+
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <div class="menu-shop-img">
+                                                    <div class="img-detail-shop-1">
+                                                        <div class="text-shop text-shop-detail">
+                                                            <h3>Spring <br> Collection</h3>
+                                                            <a href="">Discover More</a>
+                                                        </div>
+                                                        <a href="">
+                                                            <img class="img-shop-1"
+                                                                src="https://gougi-demo.myshopify.com/cdn/shop/files/banner1_f5acb12e-db61-418a-908a-1b446d438566_grande.jpg?v=1665718036"
+                                                                alt="">
+                                                        </a>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="gougi-img">
+                                <a class="gougi" href="">
+                                    <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Logo_250x.png?v=1640744879"
+                                        alt="">
+                                </a>
+                            </li>
+                            <li class="list-pages">
+                                <div class="col-6-nav">
+                                    <a href="#">Pages </a>
+                                    <a class="usd-pp" href=""> <svg class="nav-arrow" width="8" height="8" viewBox="0 0 12 7"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                    </svg></a>
+                                </div>
+                                <div class=" item-list-page">
+                                    <div class="demo-boxs-list loading">
+                                        <div class="demo-box-list">
+                                            <div class="demo-box-item ">
+                                                <a href="">
+                                                    <?xml version="1.0" encoding="utf-8"?>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(255, 255, 255); display: block; shape-rendering: auto;" width="50px" height="50px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                                                    <circle cx="50" cy="50" r="0" fill="none" stroke="#e90c59" stroke-width="2">
+                                                    <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="0s"></animate>
+                                                    <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="0s"></animate>
+                                                    </circle><circle cx="50" cy="50" r="0" fill="none" stroke="#46dff0" stroke-width="2">
+                                                    <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+                                                    <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+                                                    </circle>
+                                                    </svg>
+                                                </a>
+                                                <!-- <ul class="box line-hover">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Home </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Home </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Home Fashion</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Home Fashion</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>HomeFash</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>HomeFash 1</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Comming soon 1</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Comming soon 1</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+
+                                                </ul> -->
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="list-blogs">
+                                <div class="col-6-nav">
+                                    <a href="#">Blogs </a>
+                                    <a class="usd-pp" href=""> <svg class="nav-arrow" width="8" height="8" viewBox="0 0 12 7"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                    </svg></a>
+                                </div>
+                                <div class=" item-list-blogs">
+                                    <div class="demo-boxs-list loading">
+                                        <div class="demo-box-list">
+                                            <div class="demo-box-item">
+                                                <?xml version="1.0" encoding="utf-8"?>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(255, 255, 255); display: block; shape-rendering: auto;" width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                                                <circle cx="50" cy="50" r="0" fill="none" stroke="#e90c59" stroke-width="2">
+                                                <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="0s"></animate>
+                                                <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="0s"></animate>
+                                                </circle><circle cx="50" cy="50" r="0" fill="none" stroke="#46dff0" stroke-width="2">
+                                                <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+                                                <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+                                                </circle>
+                                                </svg>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-features">
+                                <div class="col-6-nav">
+                                    <a href="#">Features </a>
+                                    <a class="usd-pp" href=""> <svg class="nav-arrow" width="8" height="8" viewBox="0 0 12 7"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                    </svg></a>
+                                </div>
+                                <div class="item-list-feature">
+                                    <div class="box-feature">
+                                        <div class="menu-shop-list">
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray ">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-shop-items">
+                                                <ul class="box line-hover ">
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Bread</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Backg</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Back</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb </span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <div>
+                                                                <span>Shop Breadcrumb Background</span>
+                                                                <div class="link-boder-gray">
+                                                                </div>
+                                                            </div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="icon-menu-top-right">
+                        <li>
+                            <a class="icon-menu wh-screen" href="">
+                                <div class="before-collection hg-w-login">
+                                    <span class="text-box-login text-box-left">Login</span>
+                                    <span class="span-login"></span>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" style="stroke:#121212"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20 20.9998V18.9998C20 17.9389 19.5786 16.9215 18.8284 16.1713C18.0783 15.4212 17.0609 14.9998 16 14.9998H8C6.93913 14.9998 5.92172 15.4212 5.17157 16.1713C4.42143 16.9215 4 17.9389 4 18.9998V20.9998"
+                                        stroke="" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M12 10.9998C14.2091 10.9998 16 9.20889 16 6.99976C16 4.79062 14.2091 2.99976 12 2.99976C9.79086 2.99976 8 4.79062 8 6.99976C8 9.20889 9.79086 10.9998 12 10.9998Z"
+                                        stroke="" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-tyms icon-menu wh-screen" href="">
+                                <div class="before-collection hg-w-login">
+                                    <span class="text-box-login text-box-list">Wishlist</span>
+                                    <span class="span-login"></span>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" style="stroke:#121212"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8401 4.60987C20.3294 4.09888 19.7229 3.69352 19.0555 3.41696C18.388 3.14039 17.6726 2.99805 16.9501 2.99805C16.2276 2.99805 15.5122 3.14039 14.8448 3.41696C14.1773 3.69352 13.5709 4.09888 13.0601 4.60987L12.0001 5.66987L10.9401 4.60987C9.90843 3.57818 8.50915 2.99858 7.05012 2.99858C5.59109 2.99858 4.19181 3.57818 3.16012 4.60987C2.12843 5.64156 1.54883 7.04084 1.54883 8.49987C1.54883 9.95891 2.12843 11.3582 3.16012 12.3899L4.22012 13.4499L12.0001 21.2299L19.7801 13.4499L20.8401 12.3899C21.3511 11.8791 21.7565 11.2727 22.033 10.6052C22.3096 9.93777 22.4519 9.22236 22.4519 8.49987C22.4519 7.77738 22.3096 7.06198 22.033 6.39452C21.7565 5.72706 21.3511 5.12063 20.8401 4.60987V4.60987Z"
+                                        stroke="" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>
+                                <span class="icon-tym">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-tyms icon-menu wh-screen" href="">
+                                <div class="before-collection hg-w-login">
+                                    <span class="text-box-login text-box-cart">Cart</span>
+                                    <span class="span-login"></span>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" style="stroke:#121212"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9 21.9995C9.55228 21.9995 10 21.5518 10 20.9995C10 20.4472 9.55228 19.9995 9 19.9995C8.44772 19.9995 8 20.4472 8 20.9995C8 21.5518 8.44772 21.9995 9 21.9995Z"
+                                        stroke="" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M20 21.9995C20.5523 21.9995 21 21.5518 21 20.9995C21 20.4472 20.5523 19.9995 20 19.9995C19.4477 19.9995 19 20.4472 19 20.9995C19 21.5518 19.4477 21.9995 20 21.9995Z"
+                                        stroke="" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M1 0.999512H5L7.68 14.3895C7.77144 14.8499 8.02191 15.2635 8.38755 15.5578C8.75318 15.8521 9.2107 16.0085 9.68 15.9995H19.4C19.8693 16.0085 20.3268 15.8521 20.6925 15.5578C21.0581 15.2635 21.3086 14.8499 21.4 14.3895L23 5.99951H6"
+                                        stroke="" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>
+                                <span class="icon-tym">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section1">
+        <div class="container">
+            <div class="section1-main">
+                <span>Products</span>
+                <div class="item-small">
+                    <a href="">Homepage</a>
+                    <p class="before-product">Products</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section2">
+        <div class="container-section2">
+            <div class="section2-main">
+                <div class="section2-left">
+                    <div class="list-product-type">
+                        <div class="title-product-type">
+                            <a href="">Product type</a>
+                            <a href=""> <svg class="nav-arrow" width="10" height="10" viewBox="0 0 12 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                </svg></a>
+                        </div>
+                        <div class="list-item-products">
+                            <ul class="items-products ">
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+
+                                        <span href="">(2)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Clothings
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(4)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(3)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(5)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(7)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(2)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(3)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(2)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(2)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(2)</span>
+
+                                    </div>
+                                </li>
+                                <li class="item-product-hover">
+                                    <div class="item-product-detail">
+                                        <a href="">Accessories
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                        <span href="">(2)</span>
+
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sizes">
+                        <div class="items-size">
+                            <div class="title-product-type">
+                                <a href="">Size</a>
+                                <a href=""> <svg class="nav-arrow" width="10" height="10" viewBox="0 0 12 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                </svg></a>
+                            </div>
+                            <div class="item-button-size">
+                                <ul class="item-button-detail">
+                                    <li class="item-detail-size">
+                                        <button class="button-active">XS</button>
+                                    </li>
+                                    <li class="item-detail-size">
+                                        <button>S</button>
+                                    </li>
+                                    <li class="item-detail-size">
+                                        <button>M</button>
+                                    </li>
+                                    <li class="item-detail-size">
+                                        <button>L</button>
+                                    </li>
+                                    <li class="item-detail-size">
+                                        <button>XL</button>
+                                    </li>
+                                    <li class="item-detail-size">
+                                        <button>XXL</button>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="item-price">
+                            <div class="title-product-type">
+                                <a href="">Price</a>
+                                <a href=""> <svg class="nav-arrow" width="10" height="10" viewBox="0 0 12 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                                </svg></a>
+                            </div>
+                            <div class="price-line-point">
+                                <div class="line-thought">
+                                    <span class="line-black"></span>
+                                    <span class="chamtron1 handle"></span>
+                                    <span class="chamtron2 handle"></span>
+                                </div>
+                                <div class="prices-items">
+                                    <span>Price: </span>
+                                    <span class="price-gia">$46 - $244</span>
+                                </div>
+
+                            </div>
+                            <div class="btn-apply">
+                                <button class="button-apply">Apply</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="color">
+                        <div class="title-product-type">
+                            <a href="">Color</a>
+                            <a href=""> <svg class="nav-arrow" width="10" height="10" viewBox="0 0 12 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                            </svg></a>
+                        </div>
+                        <div class="item-colors">
+                            <ul class="items-color">
+                                <li class="item-color-detail bisque">
+                                </li>
+                                <li class="item-color-detail black">
+                                </li>
+                                <li class="item-color-detail blanchedalmond">
+                                </li>
+                                <li class="item-color-detail blue">
+                                </li>
+                                <li class="item-color-detail burlywood">
+                                </li>
+                                <li class="item-color-detail cornsilk">
+                                </li>
+                                <li class="item-color-detail darkgoldenrod">
+                                </li>
+                                <li class="item-color-detail darkred">
+                                </li>
+                                <li class="item-color-detail darkred">
+                                </li>
+                                <li class="item-color-detail bisque">
+                                </li>
+                                <li class="item-color-detail black">
+                                </li>
+                                <li class="item-color-detail blanchedalmond">
+                                </li>
+                                <li class="item-color-detail blue">
+                                </li>
+                                <li class="item-color-detail burlywood">
+                                </li>
+                                <li class="item-color-detail cornsilk">
+                                </li>
+                                <li class="item-color-detail darkgoldenrod">
+                                </li>
+                                <li class="item-color-detail darkred">
+                                </li>
+                                <li class="item-color-detail darkred">
+                                </li>
+                                <li class="item-color-detail bisque">
+                                </li>
+                                <li class="item-color-detail black">
+                                </li>
+                                <li class="item-color-detail blanchedalmond">
+                                </li>
+                                <li class="item-color-detail blue">
+                                </li>
+                                <li class="item-color-detail burlywood">
+                                </li>
+                                <li class="item-color-detail cornsilk">
+                                </li>
+                                <li class="item-color-detail darkgoldenrod">
+                                </li>
+                                <li class="item-color-detail cornsilk">
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="brands">
+                        <div class="title-product-type">
+                            <a href="">Brand</a>
+                            <a href=""> <svg class="nav-arrow" width="10" height="10" viewBox="0 0 12 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4"></path>
+                            </svg></a>
+                        </div>
+                        <div class="list-items-brand">
+                            <ul class="daucham">
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="item-brand-detail">
+                                    <div class="brand-item">
+                                        <input class="ckb" type="checkbox">
+                                        <div class="checkbox"></div>
+                                        <a class="lable" href="">Adidas Adidas
+                                            <div class="line-hover-product ">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-right">
+                    <div class="section2-main-right">
+                        <div class="top-bar">
+                            <div class="menu-bar-left">
+                                <a class="menu-bar-lefts" href="">
+                                    <svg height="16" data-col="3" viewBox="0 0 10 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4 0H0.000477865C0 0.380952 0 0.596931 0 1.33333V14.6667C0 15.4031 0.000477865 16 0.000477865 16H4C4 16 4 15.4031 4 14.6667V1.33333C4 0.596931 4 0.380952 4 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M10 0H6.00048C6 0.380952 6 0.596931 6 1.33333V14.6667C6 15.4031 6.00048 16 6.00048 16H10C10 16 10 15.4031 10 14.6667V1.33333C10 0.596931 10 0.380952 10 0Z"
+                                            fill="#A0A0A0"></path>
+                                    </svg>
+                                </a>
+                                <a class="menu-bar-lefts" href="">
+                                    <svg height="20" data-col="3" viewBox="0 0 16 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4 0H0.000477865C0 0.380952 0 0.596931 0 1.33333V14.6667C0 15.4031 0.000477865 16 0.000477865 16H4C4 16 4 15.4031 4 14.6667V1.33333C4 0.596931 4 0.380952 4 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M10 0H6.00048C6 0.380952 6 0.596931 6 1.33333V14.6667C6 15.4031 6.00048 16 6.00048 16H10C10 16 10 15.4031 10 14.6667V1.33333C10 0.596931 10 0.380952 10 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M16 0H12.0005C12 0.380952 12 0.596931 12 1.33333V14.6667C12 15.4031 12.0005 16 12.0005 16H16C16 16 16 15.4031 16 14.6667V1.33333C16 0.596931 16 0.380952 16 0Z"
+                                            fill="#A0A0A0"></path>
+                                    </svg>
+                                </a>
+                                <a class="menu-bar-lefts" href="">
+                                    <svg height="20" data-col="3" viewBox="0 0 22 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4 0H0.000477865C0 0.380952 0 0.596931 0 1.33333V14.6667C0 15.4031 0.000477865 16 0.000477865 16H4C4 16 4 15.4031 4 14.6667V1.33333C4 0.596931 4 0.380952 4 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M10 0H6.00048C6 0.380952 6 0.596931 6 1.33333V14.6667C6 15.4031 6.00048 16 6.00048 16H10C10 16 10 15.4031 10 14.6667V1.33333C10 0.596931 10 0.380952 10 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M16 0H12.0005C12 0.380952 12 0.596931 12 1.33333V14.6667C12 15.4031 12.0005 16 12.0005 16H16C16 16 16 15.4031 16 14.6667V1.33333C16 0.596931 16 0.380952 16 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M22 0H18.0005C18 0.380952 18 0.596931 18 1.33333V14.6667C18 15.4031 18.0005 16 18.0005 16H22C22 16 22 15.4031 22 14.6667V1.33333C22 0.596931 22 0.380952 22 0Z"
+                                            fill="#A0A0A0"></path>
+                                    </svg>
+                                </a>
+                                <a class="menu-bar-lefts" href="">
+                                    <svg height="20" data-col="3" viewBox="0 0 28 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4 0H0.000477865C0 0.380952 0 0.596931 0 1.33333V14.6667C0 15.4031 0.000477865 16 0.000477865 16H4C4 16 4 15.4031 4 14.6667V1.33333C4 0.596931 4 0.380952 4 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M10 0H6.00048C6 0.380952 6 0.596931 6 1.33333V14.6667C6 15.4031 6.00048 16 6.00048 16H10C10 16 10 15.4031 10 14.6667V1.33333C10 0.596931 10 0.380952 10 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M16 0H12.0005C12 0.380952 12 0.596931 12 1.33333V14.6667C12 15.4031 12.0005 16 12.0005 16H16C16 16 16 15.4031 16 14.6667V1.33333C16 0.596931 16 0.380952 16 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M22 0H18.0005C18 0.380952 18 0.596931 18 1.33333V14.6667C18 15.4031 18.0005 16 18.0005 16H22C22 16 22 15.4031 22 14.6667V1.33333C22 0.596931 22 0.380952 22 0Z"
+                                            fill="#A0A0A0"></path>
+                                        <path
+                                            d="M28 0H24.0005C24 0.380952 24 0.596931 24 1.33333V14.6667C24 15.4031 24.0005 16 24.0005 16H28C28 16 28 15.4031 28 14.6667V1.33333C28 0.596931 28 0.380952 28 0Z"
+                                            fill="#A0A0A0"></path>
+                                    </svg>
+                                </a>
+                                <a class="menu-bar-lefts" href="">
+                                    <svg class="black" height="20" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M-1.74846e-07 12L0 15.9995C0.380952 16 0.596931 16 1.33333 16L14.6667 16C15.4031 16 16 15.9995 16 15.9995L16 12C16 12 15.4031 12 14.6667 12L1.33333 12C0.596931 12 0.380952 12 -1.74846e-07 12Z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M-1.74846e-07 6L0 9.99952C0.380952 10 0.596931 10 1.33333 10L14.6667 10C15.4031 10 16 9.99952 16 9.99952L16 6C16 6 15.4031 6 14.6667 6L1.33333 6C0.596931 6 0.380952 6 -1.74846e-07 6Z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M-1.74846e-07 0L0 3.99952C0.380952 4 0.596931 4 1.33333 4L14.6667 4C15.4031 4 16 3.99952 16 3.99952L16 -6.99382e-07C16 -6.99382e-07 15.4031 -6.7329e-07 14.6667 -6.411e-07L1.33333 -5.82819e-08C0.596931 -2.60927e-08 0.380952 -1.6652e-08 -1.74846e-07 0Z"
+                                            fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="menu-bar-right">
+                                <div class="top-bar-choose">
+                                    <input type="checkbox" id="menu-toggle">
+                                    <label class="down" for="menu-toggle">Alphabetically, A-Z
+                                        <!-- <a href="">Alphabetically, A-Z</a> -->
+                                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.55912 0.965447C0.751519 0.764964 1.05259 0.746739 1.26475 0.91077L1.32553 0.965447L6.00039 5.83647L10.6752 0.965447C10.8676 0.764964 11.1687 0.746739 11.3809 0.91077L11.4417 0.965447C11.6341 1.16593 11.6516 1.47965 11.4941 1.70073L11.4417 1.76406L6.3836 7.03465C6.1912 7.23513 5.89012 7.25336 5.67797 7.08933L5.61718 7.03465L0.55912 1.76406C0.347481 1.54353 0.347481 1.18598 0.55912 0.965447Z"
+                                                fill="#121212"></path>
+                                        </svg>
+                                    </label>
+                                    <nav class="ten-sanpham">
+                                        <ul>
+                                            <li>fashion</li>
+                                            <li>fashion</li>
+                                            <li>fashion fashion</li>
+                                            <li>fashion fashion</li>
+                                            <li>fashion fashion</li>
+                                        </ul>
+                                    </nav>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section2-list-products" id="list-products">
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="box-cart">
+
+        <div class="close-svg">
+            <svg width="24" height="24" style="stroke:black;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+        </div>
+        <div class="count-down">
+            <p>
+                Your cart will expire in <span class="count"></span> minutes! <br>Please checkout now before your items sell out!
+              </p>
+        </div>
+        <div class="notification_cart">
+        </div>
+        <div id="cart"></div>
+    </div>
+   
+    <footer class="footer">
+        <div class="footer-top-bottom">
+            <div class="footer-top">
+                <div class="row footer-lg-992">
+                    <div class="col-lg-2 img-footer">
+                        <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Logo_90x@2x.png?v=1640744879" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-items-collection">
+                            <h3>Collection</h3>
+                            <div class="footer-list-items">
+                                <a href="">Order Status</a>
+                                <a href="">Shipping &amp; Delivery</a>
+                                <a href="">FAQ &amp; Helps</a>
+                                <a href="">Shipping &amp; Delivery</a>
+                                <a href="">FAQ &amp; Helps</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-items-collection">
+                            <h3>Company</h3>
+                            <div class="footer-list-items">
+                                <a href="">Order Status</a>
+                                <a href="">Shipping &amp; Delivery</a>
+                                <a href="">FAQ &amp; Helps</a>
+                                <a href="">Shipping &amp; Delivery</a>
+                                <a href="">FAQ &amp; Helps</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-items-collection">
+                            <h3>Nedd Help</h3>
+                            <div class="footer-list-items">
+                                <a href="">Order Status</a>
+                                <a href="">Shipping &amp; Delivery</a>
+                                <a href="">FAQ &amp; Helps</a>
+                                <a href="">Shipping &amp; Delivery</a>
+                                <a href="">FAQ &amp; Helps</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-items-collection">
+                            <h3>Collection</h3>
+                            <div class="footer-list-items">
+                                <a href="">
+                                    <div class="service-item">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.666 1.33325V5.33325H14.666" stroke="#121212"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M15.3327 0.666748L10.666 5.33341" stroke="#121212"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M14.6669 11.28V13.28C14.6677 13.4657 14.6297 13.6494 14.5553 13.8195C14.4809 13.9897 14.3718 14.1424 14.235 14.2679C14.0982 14.3934 13.9367 14.489 13.7608 14.5485C13.5849 14.6079 13.3985 14.63 13.2136 14.6133C11.1622 14.3904 9.19161 13.6894 7.46028 12.5667C5.8495 11.5431 4.48384 10.1774 3.46028 8.56665C2.3336 6.82745 1.63244 4.84731 1.41361 2.78665C1.39695 2.60229 1.41886 2.41649 1.47795 2.24107C1.53703 2.06564 1.63199 1.90444 1.75679 1.76773C1.88159 1.63102 2.03348 1.52179 2.20281 1.447C2.37213 1.37221 2.55517 1.33349 2.74028 1.33332H4.74028C5.06382 1.33013 5.37748 1.4447 5.62279 1.65567C5.8681 1.86664 6.02833 2.15961 6.07361 2.47998C6.15803 3.12003 6.31458 3.74847 6.54028 4.35332C6.62998 4.59193 6.64939 4.85126 6.59622 5.10057C6.54305 5.34988 6.41952 5.57872 6.24028 5.75998L5.39361 6.60665C6.34265 8.27568 7.72458 9.65761 9.39361 10.6067L10.2403 9.75998C10.4215 9.58074 10.6504 9.45722 10.8997 9.40405C11.149 9.35088 11.4083 9.37029 11.6469 9.45998C12.2518 9.68568 12.8802 9.84224 13.5203 9.92665C13.8441 9.97234 14.1399 10.1355 14.3513 10.385C14.5627 10.6345 14.6751 10.953 14.6669 11.28Z"
+                                                stroke="#121212" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                        <span>Call Us:+1 666 8888</span>
+
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="service-item">
+                                        <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.6 1H15.4C16.28 1 17 1.72 17 2.6V12.2C17 13.08 16.28 13.8 15.4 13.8H2.6C1.72 13.8 1 13.08 1 12.2V2.6C1 1.72 1.72 1 2.6 1Z"
+                                                stroke="#121212" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M17 2.6001L9 8.2001L1 2.6001" stroke="#121212"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                        <span>Sends us an email</span>
+
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="service-item">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14 6.66675C14 11.3334 8 15.3334 8 15.3334C8 15.3334 2 11.3334 2 6.66675C2 5.07545 2.63214 3.54933 3.75736 2.42411C4.88258 1.29889 6.4087 0.666748 8 0.666748C9.5913 0.666748 11.1174 1.29889 12.2426 2.42411C13.3679 3.54933 14 5.07545 14 6.66675Z"
+                                                stroke="#121212" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M8 8.66675C9.10457 8.66675 10 7.77132 10 6.66675C10 5.56218 9.10457 4.66675 8 4.66675C6.89543 4.66675 6 5.56218 6 6.66675C6 7.77132 6.89543 8.66675 8 8.66675Z"
+                                                stroke="#121212" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                        <span>See our stores</span>
+
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-items-collection">
+                            <p class="text-sign">Sign Up Today and get $20 off your first order.</p>
+                            <div class="thu1">
+                                <div class="footer-input-form">
+                                    <input class="enter-email" type="text" placeholder="Enter your e-mail">
+                                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 12H19" stroke="inherit" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M12 5L19 12L12 19" stroke="inherit" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+                                <div class="list-icon-connect">
+                                    <a href="">
+                                        <img src="img/facebook.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/twitter.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/facebook.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/twitter.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row bottom-text">
+                    <div class="col-lg-8">
+                        <div class="footer-bottom-text-left">
+                            Copyright © 2022. Gougi by CMSSuperheroes. All Rights Reserved
+                        </div>
+                    </div>
+                    <div class="col-lg-4 img-visa">
+                        <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Visa_large.webp?v=1655913888" alt="">
+                        <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Paypal_large.webp?v=1655913888"
+                            alt="">
+                        <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Western_Union_large.webp?v=1655913888"
+                            alt="">
+                        <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Cirrus_large.webp?v=1655913888"
+                            alt="">
+                        <img src="https://gougi-demo.myshopify.com/cdn/shop/files/Visa_large.webp?v=1655913888" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-nav-menu-ms-992">
+            <ul>
+                <li>
+                    <a href="">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.5 18.3334H15.8333C16.2754 18.3334 16.6993 18.1578 17.0118 17.8453C17.3244 17.5327 17.5 17.1088 17.5 16.6667V7.50008L10 1.66675L2.5 7.50008V16.6667C2.5 17.1088 2.67559 17.5327 2.98816 17.8453C3.30072 18.1578 3.72464 18.3334 4.16667 18.3334H7.5"
+                                stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 18.3333V13.3333H12.5V18.3333" stroke="black" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" style="stroke:#121212" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 9.99976H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M21 5.99976H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M21 13.9998H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M17 17.9998H3" stroke="" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                    <a href="">Category</a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" style="stroke:#121212" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.8401 4.60987C20.3294 4.09888 19.7229 3.69352 19.0555 3.41696C18.388 3.14039 17.6726 2.99805 16.9501 2.99805C16.2276 2.99805 15.5122 3.14039 14.8448 3.41696C14.1773 3.69352 13.5709 4.09888 13.0601 4.60987L12.0001 5.66987L10.9401 4.60987C9.90843 3.57818 8.50915 2.99858 7.05012 2.99858C5.59109 2.99858 4.19181 3.57818 3.16012 4.60987C2.12843 5.64156 1.54883 7.04084 1.54883 8.49987C1.54883 9.95891 2.12843 11.3582 3.16012 12.3899L4.22012 13.4499L12.0001 21.2299L19.7801 13.4499L20.8401 12.3899C21.3511 11.8791 21.7565 11.2727 22.033 10.6052C22.3096 9.93777 22.4519 9.22236 22.4519 8.49987C22.4519 7.77738 22.3096 7.06198 22.033 6.39452C21.7565 5.72706 21.3511 5.12063 20.8401 4.60987V4.60987Z"
+                                stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                    <a href="">Wishlist</a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" style="stroke:#121212" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 21.9995C9.55228 21.9995 10 21.5518 10 20.9995C10 20.4472 9.55228 19.9995 9 19.9995C8.44772 19.9995 8 20.4472 8 20.9995C8 21.5518 8.44772 21.9995 9 21.9995Z"
+                                stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path
+                                d="M20 21.9995C20.5523 21.9995 21 21.5518 21 20.9995C21 20.4472 20.5523 19.9995 20 19.9995C19.4477 19.9995 19 20.4472 19 20.9995C19 21.5518 19.4477 21.9995 20 21.9995Z"
+                                stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path
+                                d="M1 0.999512H5L7.68 14.3895C7.77144 14.8499 8.02191 15.2635 8.38755 15.5578C8.75318 15.8521 9.2107 16.0085 9.68 15.9995H19.4C19.8693 16.0085 20.3268 15.8521 20.6925 15.5578C21.0581 15.2635 21.3086 14.8499 21.4 14.3895L23 5.99951H6"
+                                stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                    <a href="">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+<script type="module" src="./js/AddToCart.js"></script>
+<script type="module" src="./js/Products.js"></script>
+
+</body>
+
+</html>
