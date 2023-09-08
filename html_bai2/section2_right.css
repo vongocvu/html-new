@@ -519,7 +519,7 @@
     height: 100vh;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
-  display: block;
+  display: none;
   overflow-y: scroll;
 }
 #cart{
@@ -648,12 +648,15 @@
     cursor: pointer;
     border-bottom: 1px solid var(--black);
 }
+.border-top{
+    border-top: 1px solid var(--white-100);
+}
 .slider{
     position: relative;
     overflow: hidden;
     width: 100%;
     max-width: 360px;
-    margin: 0px 20px;
+    margin: 10px 20px;
     /* overflow-x: scroll; */
 }
 .slider p{ 
@@ -773,4 +776,14 @@
 }
 .btn-view-cart{
     padding: 10px 15px;
+}
+.empty{
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+.empty p{
+      margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
