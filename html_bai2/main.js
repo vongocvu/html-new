@@ -1,1 +1,3 @@
-export * from "./UI-controllers/Products/showUI.js"
+import {showUI} from "./UI-controllers/Products/showUI.js"
+
+ showUI();
