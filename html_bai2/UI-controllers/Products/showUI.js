@@ -1,13 +1,12 @@
 import { AllProducts } from "../../data/Products.js";
-// import { AddTocart } from "../../UI-controllers/Cart/showCart.js";
-
+import { AddTocart } from "../../UI-controllers/Cart/showCart.js";
 
 const list_products = document.getElementById("list-products");
 
-export function showUI () {
-    AllProducts.map((product, index) => {
-        if( index < 5 ){
-            list_products.innerHTML += `
+export function showUI() {
+  AllProducts.map((product, index) => {
+    if (index < 5) {
+      list_products.innerHTML += `
             <div class="lists-product-detail-1">
             <div class="items-products-detail" style="--bg-image: url(${product.image[1]})">
                 <div class="products-img">
@@ -162,10 +161,8 @@ export function showUI () {
         
         </div>
             `;
-        }
-});
+    }
+  });
 
-// AddTocart();
-
-
-};
+  AddTocart();
+}

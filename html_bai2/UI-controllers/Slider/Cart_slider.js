@@ -1,6 +1,9 @@
 import { AllProducts } from "../../data/Products.js";
-import { Slider } from "../../utils/Sliders.js";
-import {show_cart,ProductInCart} from "../../Service/Carts/AddToCart.js";
+import { Slider } from "./handle_sliders.js";
+import {
+  show_cart,
+  ProductInCart,
+} from "../../UI-controllers/Cart/showCart.js";
 
 const list_product_add = document.getElementById("product_add_like");
 // const emptys = document.querySelector(".empty");
@@ -65,14 +68,18 @@ function edit_quantity(prevs, nexts) {
       if (count < 1) {
         count = 1;
       }
-      btn.parentElement.children[1].innerText = `${count < 10 ? 0 : ""}${count}`;
+      btn.parentElement.children[1].innerText = `${
+        count < 10 ? 0 : ""
+      }${count}`;
     });
   });
 
   nexts.forEach((btn) => {
     btn.addEventListener("click", () => {
       count++;
-      btn.parentElement.children[1].innerText = `${count < 10 ? 0 : ""}${count}`;
+      btn.parentElement.children[1].innerText = `${
+        count < 10 ? 0 : ""
+      }${count}`;
     });
   });
 }
@@ -80,7 +87,6 @@ function edit_quantity(prevs, nexts) {
 function addProductSugguest(btns) {
   btns.forEach((btn) => {
     btn.addEventListener("click", () => {
-    
       if (
         ProductInCart.some(
           (product) => product.id === parseInt(btn.getAttribute("product_id"))
@@ -96,13 +102,15 @@ function addProductSugguest(btns) {
       } else {
         AllProducts.forEach((product, index) => {
           if (product.id === parseInt(btn.getAttribute("product_id"))) {
-            ProductInCart.unshift({ ...product, quantity: parseInt(btn.parentElement.children[1].innerText) });
+            ProductInCart.unshift({
+              ...product,
+              quantity: parseInt(btn.parentElement.children[1].innerText),
+            });
           }
         });
       }
 
       show_cart();
-     
     });
   });
 }

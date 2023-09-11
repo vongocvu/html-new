@@ -1,6 +1,6 @@
 // import { AllProducts } from "../../data/Products.js";
 // import { showCart_slide } from "../../UI-controllers/Slider/Cart_slider.js";
-// import { count_down } from "../../utils/CountDown.js";
+// import { count_down } from "";
 
 // export let ProductInCart = [];
 
@@ -11,7 +11,6 @@
 
 //   btn_add_to_cart.forEach((btn) => {
 //     btn.addEventListener("click", () => {
-     
 //       const product_id = parseInt(btn.getAttribute("product_id")); // convert string to Interger...
 //       if (ProductInCart.some((product) => product.id === product_id)) {
 //         // kiem tra san pham vua them co trong gio hang chua
@@ -40,7 +39,6 @@
 //       }, 2000);
 
 //       show_cart();
-     
 //     });
 //   });
 // }
@@ -79,25 +77,22 @@
 //   });
 //   let prev_btns = document.querySelectorAll(".prev_btn");
 //   let next_btns = document.querySelectorAll(".next_btn");
-  
+
 //   edit_quantity(prev_btns, next_btns, ProductInCart);
 //   delete_product(document.querySelectorAll(".xoa_sp"));
 //   showCart_slide();
 //   count_down();
 //   totalCart();
- 
 // }
 
-
-//       function totalCart(){
-//         const total_cart = document.getElementById("total-cart");
-//         let total = 0 ;
-//         ProductInCart.forEach((product)=>{
-//             total += parseInt(product.price_sell) * parseInt(product.quantity);
-
-//         });
-//         total_cart.innerText =`$${total}.00`;
-//       }
+// function totalCart() {
+//   const total_cart = document.getElementById("total-cart");
+//   let total = 0;
+//   ProductInCart.forEach((product) => {
+//     total += parseInt(product.price_sell) * parseInt(product.quantity);
+//   });
+//   total_cart.innerText = `$${total}.00`;
+// }
 // function delete_product(delete_btns) {
 //   delete_btns.forEach((del_sp) => {
 //     del_sp.addEventListener("click", () => {
@@ -107,8 +102,6 @@
 //         }
 //       });
 //       show_cart();
-      
-     
 //     });
 //   });
 // }
@@ -148,6 +141,3 @@
 //   let box_cart = document.querySelector(".box-cart");
 //   box_cart.style.display = "none";
 // });
- 
-
-
