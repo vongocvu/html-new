@@ -1,5 +1,5 @@
 import { AllProducts } from "../../data/Products.js";
-import { AddTocart } from "../../UI-controllers/Carts/AddToCart.js";
+import { AddTocart } from "../../Service/Carts/AddToCart.js";
 const list_products = document.getElementById("list-products");
 
 AllProducts.map((product, index) => {

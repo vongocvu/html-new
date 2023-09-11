@@ -1,5 +1,5 @@
 import { AllProducts } from "../../data/Products.js";
-import { showCart_slide } from "../Slider/Cart_slider.js";
+import { showCart_slide } from "../../UI-controllers/Slider/Cart_slider.js";
 import { count_down } from "../../utils/CountDown.js";
 
 export let ProductInCart = [];
