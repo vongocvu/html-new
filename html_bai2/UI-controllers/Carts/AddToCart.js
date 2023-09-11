@@ -7,7 +7,7 @@ export let ProductInCart = [];
 export function AddTocart() {
   const btn_add_to_cart = document.querySelectorAll(".btn-add-to-cart");
   let box_cart = document.querySelector(".box-cart");
-  const cart = document.getElementById("cart");
+  // const cart = document.getElementById("cart");
 
   btn_add_to_cart.forEach((btn) => {
     btn.addEventListener("click", () => {
